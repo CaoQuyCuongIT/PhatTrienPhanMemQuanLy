@@ -2,17 +2,17 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 namespace MvcMovie.Controllers
 {
-    public class HelloWorldController : Controller
+    public class PersonController : Controller
     {
-        // GET: /HelloWorld/
+        // GET: /Person/
         public IActionResult Index()
         {
             return View();
         }
-        // GET: /Hello World/Welcome/
+        // GET: /Person/Welcome
         public string Welcome()
         {
-            return "Xin chào các bạn !!! hẹ hẹ hẹ ";
+            return "Chào các bạn tớ tên là Cường ";
         }
     }
 }
