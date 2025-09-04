@@ -14,5 +14,6 @@ namespace MvcMovie.Controllers
         {
             return "Chào các bạn tớ tên là Cường kòi , đây là Employee Controller  ";
         }
+       
     }
 }
